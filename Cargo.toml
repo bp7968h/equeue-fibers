@@ -8,4 +8,4 @@ actix-web = "4.9.0"
 
 [[bin]]
 name = "delay_server"
-path = "src/delay_server.rs"
+path = "src/bin/delay_server.rs"
