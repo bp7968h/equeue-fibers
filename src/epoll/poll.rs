@@ -3,7 +3,7 @@ use std::net::TcpStream;
 use std::os::fd::AsRawFd;
 use super::ffi;
 
-type Events = Vec<ffi::Event>;
+pub type Events = Vec<ffi::Event>;
 
 /// Poll represents the event queue
 pub struct Poll {

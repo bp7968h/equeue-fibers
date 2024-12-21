@@ -9,3 +9,7 @@ actix-web = "4.9.0"
 [[bin]]
 name = "delay_server"
 path = "src/bin/delay_server.rs"
+
+[[bin]]
+name = "epoll"
+path = "src/bin/epoll.rs"
