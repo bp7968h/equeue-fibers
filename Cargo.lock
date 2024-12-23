@@ -440,6 +440,7 @@ name = "equeue-fibers"
 version = "0.1.0"
 dependencies = [
  "actix-web",
+ "mio",
 ]
 
 [[package]]
